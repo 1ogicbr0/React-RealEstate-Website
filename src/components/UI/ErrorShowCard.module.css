@@ -1,0 +1,56 @@
+.message {
+    display:flex;
+    justify-content:center;
+    margin: 0.5rem 1rem 0rem 0rem;
+    padding: 0;
+    max-height:20rem;
+    overflow:auto;
+    text-align:center;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-family:   'Helvetica Neue', sans-serif;
+    color:white;    
+    font-weight: 700;
+}
+
+.emailDetail {
+    text-align: center;
+    display:flex;
+    flex:wrap;
+    justify-content:center;
+    align-items:center;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    color:rgb(0, 0, 0);
+}
+
+.actions {
+    text-align:center;
+}
+
+.actions button {
+    margin-top: 1rem;
+    cursor:pointer;
+    color:white;
+    font-size:1.5rem;
+    background-color:rgb(110, 15, 15);
+    border: none;
+    border-radius: 1rem;
+    padding:0.5rem 2rem;
+    margin-left: 1rem;
+    transition: 100ms;
+    box-shadow: 0 0.2rem 0.2rem 0.2rem rgba(0, 0, 0 ,0.75)
+}
+
+.actions button:hover {
+    background-color:rgb(134, 30, 30);
+    box-shadow: 0 0.2rem 0.2rem 0.2rem rgba(0, 0, 0 ,0.75)
+}
+
+.actions button:active {
+    transform: translateY(0.5rem);
+    box-shadow: 0 0rem 0.1rem 0.1rem rgba(0, 0, 0 ,0.75)
+
+}
